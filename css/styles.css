@@ -1,11 +1,37 @@
-div {
+div.cooming {
   text-align: center;
   padding-top: 50px;
 }
 
-div p {
+div.cooming p {
   font-family: monospace;
   font-size: 3em;
   color: rgba(130, 130, 130, 0.27);
 }
 
+div.social {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.social ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.social ul li {
+  display: inline-block;
+  padding: 0 45px;
+  border-right: 1px solid #ccc;
+}
+
+div.social ul li:last-child {
+  border-right: none;
+}
+
+div.social ul li a {
+  text-decoration: none;
+  color: #959DA5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
