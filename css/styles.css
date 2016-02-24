@@ -1,3 +1,11 @@
-body {
-	background-color: gray;
+div {
+  text-align: center;
+  padding-top: 50px;
 }
+
+div p {
+  font-family: monospace;
+  font-size: 3em;
+  color: rgba(130, 130, 130, 0.27);
+}
+
